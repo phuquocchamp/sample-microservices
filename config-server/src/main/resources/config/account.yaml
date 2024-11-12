@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+account:
+  message: "Welcome to the Account Service"
+  contactDetails:
+    name: "Hoàng Tấn Phú Quốc - phuquocchamp"
+    email: "hoangtanphuquoc@gmail.com"
+  onCallSupport:
+    - (+84) 123 456 789
+    - (+84) 123 456 669

@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+loan:
+  message: "Welcome to the Loan Service in Production Environment"
+  contactDetails:
+    name: "Hoàng Tấn Phú Quốc - Prod Owner"
+    email: "hoangtanphuquoc@gmail.com"
+  onCallSupport:
+    - (+84) 123 456 789
+    - (+84) 123 456 669

@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+account:
+  message: "Welcome to the Card Service in QA Environment"
+  contactDetails:
+    name: "Hoàng Tấn Phú Quốc - QA Lead"
+    email: "hoangtanphuquoc@gmail.com"
+  onCallSupport:
+    - (+84) 123 456 789
+    - (+84) 123 456 669
