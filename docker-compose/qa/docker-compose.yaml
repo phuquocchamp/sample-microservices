@@ -1,0 +1,40 @@
+services:
+  accounts:
+    image: "phuquocchamp/accounts-service:v1"
+    container_name: accounts-service
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - banking-network
+
+  loans:
+    image: "phuquocchamp/loans-service:v1"
+    container_name: loans-service
+    ports:
+      - "8090:8090"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - banking-network
+
+  cards:
+    image: "phuquocchamp/cards-service:v1"
+    container_name: cards-service
+    ports:
+      - "9000:9000"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - banking-network
+
+networks:
+  banking-network:
+    driver: "bridge"
